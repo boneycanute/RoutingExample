@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+.navBar
+{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.page
+{
+    height : 100vh;
+    background-color: aquamarine;
+    font-size: 20px;
+    color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.link:hover
+{
+    color: blue;
+}
+
+.link:active
+{
+    color: green
+}
+
+
+.Links:active
+{
+    color: cyan;
+}
+
